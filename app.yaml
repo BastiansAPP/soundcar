@@ -1,0 +1,8 @@
+runtime: python39  # Wybierz odpowiednią wersję runtime'u dla Twojej aplikacji
+
+handlers:
+- url: /static
+  static_dir: static/
+
+- url: /.*
+  script: auto
